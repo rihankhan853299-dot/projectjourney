@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+.story-section{
+    display: flex;
+   gap: 70px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 77px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+margin-top: 15px;
+    text-align: center;
+}
+.str1{
+width: 100px;
+height: 100px;
+object-fit: cover;
+border-radius: 50px;
+}
+.add-story{
+    position: absolute; /* this line is impotant */
+    margin-left: 70px;
+    margin-top: 70px;
+    color: white;
+    background-color: black;
+    border-radius: 60px;
+    padding: 5px;
+border: 5px solid white;
+}
+.frnd{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.pst1{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-left: 34.1%;
+    margin-top: 33px;
+    border: 3px solid red;
+}
+.usrname{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 32.95%;
+    margin-top: 10px;
+}
+.pst{
+    width: 35%;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 32%;
+}
+.icon-section{
+    display: flex;
+    gap: 30px;
+    margin-left: 33%;
+}
+.like-icon{
+    color: red;
+    font-size: 30px;
+
+}
+.save{
+    margin-left: 28%;
+}
+.para{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    width:35%;
+    margin:auto;
+
+}
+/* icons ko fi karne ka tareeka */
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 38px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+.plus{
+    display: flex;
+    font-size: 38px;
+    gap: 150px;
+    margin-top: 10px;
+    justify-content: center;
+    top: 0;
+    margin-left: 623px; 
+    position: fixed;
+    background-color: #f4f4f4;
+}
