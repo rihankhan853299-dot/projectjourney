@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.input-field{
+    justify-content: center;
+    display: flex;
+    gap: 80px;
+    margin-top: 20px;
+}
+.input-data{
+padding: 5px;
+font-size: 15px;
+border-radius: 4px;
+border: 2px solid black;
+color: green;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 300px;
+
+}
+.add{
+padding: 10px;
+color: greenyellow;
+background-color: black;
+font-size: 18px;
+border-radius: 5px;
+width: 80px;
+}
+.add:hover{
+    background-color: blue;
+}
+.prnt-of-list{
+    gap: 100px;
+}
+.todos-item{
+  border: 2px solid black; 
+  padding: 8px; 
+  text-decoration: none;
+  margin-top: 25px;
+  width: 350px;
+  margin-left: 650px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 23px;
+  border-radius: 8px;
+}
+.btn{
+color: red; 
+background-color: black;
+font-size: 15px;
+padding: 3px;
+width: 80px;
+height: 30px;
+border-radius: 8px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 20px;
+margin-left: 300px;
+}
+.btn:hover{
+    color: black;
+    background-color: red;
+    font-weight: bold;
+    border: 3px solid black;
+}
+.developer{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    margin-top: 65px;
+    background-color: limegreen;
+    width: 200px;
+    margin-left: 750px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.check{
+    margin-left: 600px;
+    background-color: black;
+    color: red;
+    padding: 1px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+
+
+}
+
+.check:hover{
+    color: black;
+    background-color: 
+    red;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+/* responsive feature */
+
+@media screen and (  max-width:768px ){ /* jab screen 768 ke barabar ya usse chhoti ho */
+
+    body{
+        background-color: blue;
+    }
+    .btn{
+        background-color: yellowgreen;
+    }
+}
